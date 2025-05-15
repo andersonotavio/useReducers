@@ -1,8 +1,8 @@
 "use client";
 
 import { useReducer, useState } from "react";
-import { Item } from "./types/Item";
-import { listReducers } from "./reducers/listReducers";
+import { listReducers } from "@/reducers/listReducers";
+   
 
 export default function Home() {
   const [list, dispatch] = useReducer(listReducers, []);
